@@ -1629,7 +1629,7 @@ void dl_unregister_callsign (dlq_item_t *E)
  *
  *		This seems to make everything unnecessarily more complicated.
  *		We should only care about the stream going from the local station to the
- *		remote station.  Why would it matter who reqested the link?  The state
+ *		remote station.  Why would it matter who requested the link?  The state
  *		machine doesn't even contain this information so the TNC doesn't know.
  *		The client app interface needs to behave differently for the two cases.
  *
@@ -5887,7 +5887,7 @@ static void enquiry_response (ax25_dlsm_t *S, ax25_frame_type_t frame_type, int 
 
 	    if (s_debug_retry) {
 	      text_color_set(DW_COLOR_ERROR);
-	      dw_printf ("\n****** ENQUIRY RESPONSE srej not enbled, sending RR resp F=%d ******\n\n", f);
+	      dw_printf ("\n****** ENQUIRY RESPONSE srej not enabled, sending RR resp F=%d ******\n\n", f);
 	    }
 
 	    pp = ax25_s_frame (S->addrs, S->num_addr, cr, frame_type_S_RR, S->modulo, nr, f, NULL, 0);

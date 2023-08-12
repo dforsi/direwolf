@@ -269,7 +269,7 @@ void tq_append (int chan, int prio, packet_t pp)
 	    strlcpy (ts, "", sizeof(ts));
 	  }
 
-	  char stemp[256];	// Formated addresses.
+	  char stemp[256];	// Formatted addresses.
 	  ax25_format_addrs (pp, stemp);
 	  unsigned char *pinfo;
 	  int info_len = ax25_get_info (pp, &pinfo);

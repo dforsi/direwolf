@@ -711,7 +711,7 @@ void demod_afsk_process_sample (int chan, int subchan, int sam, struct demodulat
 	      // remain about the same for a given packet.
 
 	      // We are not performing the AGC step here but still want the envelope
-	      // for caluculating the confidence level (or quality) of the sample.
+	      // for calculating the confidence level (or quality) of the sample.
 
 	      (void) agc (m_amp, D->agc_fast_attack, D->agc_slow_decay, &(D->m_peak), &(D->m_valley));
 	      (void) agc (s_amp, D->agc_fast_attack, D->agc_slow_decay, &(D->s_peak), &(D->s_valley));

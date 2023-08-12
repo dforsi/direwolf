@@ -308,7 +308,7 @@ int gen_tone_init (struct audio_s *audio_config_p, int amp, int gen_packets)
 // According to multiple sources, we should transition more gently.
 // Below see see a rough approximation of:
 //  * A step function, immediately going to new value.
-//  * Linear interpoation.
+//  * Linear interpolation.
 //  * Raised cosine.  Square root of cosine is also mentioned.
 //
 //	new	      -		    /		   --

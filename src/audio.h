@@ -158,7 +158,7 @@ struct audio_s {
 	    //		1		2			2, 3
 	    //		2		4			4, 5
 	    //
-	    // A future feauture might allow the user to specify a different audio source.
+	    // A future feature might allow the user to specify a different audio source.
 	    // This would allow multiple modems (with associated channel) to share an audio source.
 	    // int audio_source;	// Default would be [0,1,2,3,4,5]
 

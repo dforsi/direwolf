@@ -1750,7 +1750,7 @@ static void * satgate_delay_thread (void *arg)
  *--------------------------------------------------------------------*/
 
 
-// It is unforunate that the : data type indicator (DTI) was overloaded with
+// It is unfortunate that the : data type indicator (DTI) was overloaded with
 // so many different meanings.  Simply looking at the DTI is not adequate for
 // determining whether a packet is a message.
 // We need to exclude the other special cases of telemetry metadata,

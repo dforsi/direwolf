@@ -1699,7 +1699,7 @@ int main ()
 	pftest (230, "i/30",                 "X>X:}WB2OSZ-5>APDW14::W2UB     :Happy Birthday{001", 1);
 	pftest (231, "i/",                   "WB2OSZ-5>APDW14::W2UB     :Happy Birthday{001", -1);
 
-	// Besure bulletins and telemetry metadata don't get included.
+	// Be sure bulletins and telemetry metadata don't get included.
 	pftest (234, "i/30", "KJ4SNT>APMI04::KJ4SNT   :PARM.Vin,Rx1h,Dg1h,Eff1h,Rx10m,O1,O2,O3,O4,I1,I2,I3,I4", 0);
 	pftest (235, "i/30", "A>B::BLN      :test", 0);
 

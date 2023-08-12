@@ -944,7 +944,7 @@ static int set_oss_params (int a, int fd, struct audio_s *pa)
 
 #if DEBUG
 	text_color_set(DW_COLOR_DEBUG);
-	dw_printf ("audio_open(): suggestd block size is %d\n", ossbuf_size_in_bytes);	
+	dw_printf ("audio_open(): suggested block size is %d\n", ossbuf_size_in_bytes);	
 #endif
 
 /*

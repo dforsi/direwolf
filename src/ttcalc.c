@@ -465,7 +465,7 @@ static int connect_to_server (char *hostname, char *port)
 	freeaddrinfo(ai_head);
 
 	if (server_sock == -1) {
- 	  printf("Unnable to connect to %s (%s), port %s\n", hostname, ipaddr_str, port);
+	  printf("Unable to connect to %s (%s), port %s\n", hostname, ipaddr_str, port);
 	 
 	}
 

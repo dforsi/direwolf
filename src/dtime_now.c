@@ -42,7 +42,7 @@
  *		easier.
  *
  * NOTE:	This is not a good way to calculate elapsed time because
- *		it can jump forward or backware via NTP or other manual setting.
+ *		it can jump forward or backward via NTP or other manual setting.
  *
  *		Use the monotonic version for measuring elapsed time.
  *

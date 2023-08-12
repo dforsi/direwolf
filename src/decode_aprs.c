@@ -1200,7 +1200,7 @@ static void aprs_raw_nmea (decode_aprs_t *A, unsigned char *info, int ilen)
  *			'......|3	Byonics TinyTrack3
  *			'......|4	Byonics TinyTrack4
  *
- *		Any prefix and suffix must be removed before futher processsing.
+ *		Any prefix and suffix must be removed before further processing.
  *
  *		Pick one: MIC-E Telemetry Data or "Status Text" (called a comment everywhere else).
  *
